@@ -1,0 +1,14 @@
+---
+apt-update: true
+software-packages: true
+
+#Packages to be installed as core
+packages:
+  - screen
+  - git
+  - nano
+  - curl
+  - php7.0
+  - php7.0-mysql
+  - php7.0-fpm
+  - nginx

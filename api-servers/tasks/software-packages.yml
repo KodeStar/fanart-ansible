@@ -1,7 +1,7 @@
 ---
  - name: Update Installed Packages
    apt: upgrade=dist update_cache=yes
-   when: apt_update
+   when: apt-update
 
 - name: installing packages
   package: name={{item}} state=present
